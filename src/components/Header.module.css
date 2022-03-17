@@ -1,0 +1,25 @@
+.header ul {
+  list-style: none;
+}
+
+
+.flex{
+  list-style: none;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.flex :not(:first-child){
+  margin-left: 15px;
+}
+/* .flex a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: .5em;
+}
+a:hover{
+  color: white;
+  background-color: black;
+} */

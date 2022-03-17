@@ -57,7 +57,7 @@ const Card = (props: ICard) => {
           ))}
       </ul>
       <button
-        className='btn btn-warning'
+        className='btn btn-warning me-1'
         onClick={() => {
           editWilderHandler(_id);
         }}
